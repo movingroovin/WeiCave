@@ -1,12 +1,15 @@
 module.exports = {
   siteMetadata: {
     title: "Wei Cave",
+    siteUrl: "https://wei-cave.netlify.app",
   },
   plugins: [
     "gatsby-plugin-styled-components",
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
+    "gatsby-plugin-sass",
+    "gatsby-transformer-remark",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
@@ -31,6 +34,14 @@ module.exports = {
         path: "./src/pages/",
       },
       __key: "pages",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "posts",
+        path: "./src/assests/posts",
+      },
+      __key: "images",
     },
   ],
 };

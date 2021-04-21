@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&display=swap');
+
+// variables
+$primary-color: #3B0404;
+body {
+  margin: 0 5px;
+  font-family: -apple-system, 'Noto Sans TC', Roboto, sans-serif, serif;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+}
+
+main {
+  color: $primary-color;
+  padding: 16px 48px;
+  border-top: 1px solid grey;
+}
