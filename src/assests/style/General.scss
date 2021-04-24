@@ -2,9 +2,16 @@
 
 // variables
 $primary-color: #3B0404;
-body {
-  margin: 0 5px;
+html, body {
+  margin: 0;
+  height: 100%;
   font-family: -apple-system, 'Noto Sans TC', Roboto, sans-serif, serif;
+}
+
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 a {
@@ -13,7 +20,8 @@ a {
 }
 
 main {
+  flex: 1;
   color: $primary-color;
-  padding: 16px 48px;
-  border-top: 1px solid grey;
+  padding: 16px 8%;
+  border-top: 1px solid #e6e6e6;
 }

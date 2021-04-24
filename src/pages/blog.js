@@ -1,11 +1,12 @@
 import * as React from 'react'
 import Header from './../components/Header'
+import Footer from './../components/Footer'
 import './../assests/style/General.scss'
 import { Link, graphql } from 'gatsby';
 
 const BlogPage = ({data}) => {
   return (
-    <>
+    <div className='wrapper'>
       <Header />
       <main>
         <title>Blog</title>
@@ -28,7 +29,8 @@ const BlogPage = ({data}) => {
           )
         }
       </main>
-    </>
+      <Footer />
+    </div>
   )
 }
 

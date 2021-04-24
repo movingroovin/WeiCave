@@ -2,13 +2,14 @@ import React from 'react'
 import { Link } from 'gatsby';
 import styled from "styled-components";
 
-const SiteName = styled.div`
+const SiteName = styled.span`
   font-size: 1.875rem;
   text-decoration: none;
 `;
 
 const SiteHeader = styled.header`
-  padding: 1rem;
+  margin: 0 5%;
+  padding: 1rem 0;
 `;
 
 const NavContainer = styled.nav`
@@ -25,13 +26,14 @@ const Header = () => {
     <SiteHeader>
       <div>
         <Link to="/">
-          <SiteName>Rules of world</SiteName>
+          {/* <SiteName>Rules of world</SiteName> */}
+          <SiteName>wweiweiiweii</SiteName>
         </Link>
       </div>
       <div>
         <NavContainer>
-          <NavLink to="/blog">Posts</NavLink>
           <NavLink to="/about">About</NavLink>
+          <NavLink to="/blog">Articles</NavLink>
         </NavContainer>
       </div>
     </SiteHeader>
