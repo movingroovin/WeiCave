@@ -18,9 +18,9 @@ const ProfileContainer = styled.div`
 `;
 
 const Img = styled.img`
-  width: 250px;
+  width: 300px;
   @media screen and (max-width: 768px) {
-    width: 300px
+    width: 350px
   }
 `;
 
@@ -34,7 +34,8 @@ const AboutPage = () => {
           <Img src={profile} alt="Profile"/>
           <div>
             <h1>About Wei</h1>
-            Fullstack(Forntend) Engineer @ Taiwan
+            <p>Fullstack(Forntend) Engineer @ Taiwan</p>
+            <p>Contact: finnbloo@gmail.com</p>
           </div>
         </ProfileContainer>
       </main>

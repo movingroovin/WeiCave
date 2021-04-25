@@ -27,7 +27,7 @@ const Header = () => {
       <div>
         <Link to="/">
           {/* <SiteName>Rules of world</SiteName> */}
-          <SiteName>wweiweiiweii</SiteName>
+          <SiteName>wweiweeiweii</SiteName>
         </Link>
       </div>
       <div>

@@ -27,7 +27,7 @@ const Footer = () => {
     return (
       <SiteFooter>
         <div>
-          © {nowYear} | Wei Chen. All rights reserved.
+          Wei Chen © {nowYear}
         </div>
         <FooterContainer>
           <Icon>
