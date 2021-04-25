@@ -7,7 +7,7 @@ const SiteFooter = styled.footer`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 5%;
+  padding: 0.5rem 5%;
   background-color: #3e4441;
   color: #f1defa
 `;
