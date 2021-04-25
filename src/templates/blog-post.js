@@ -11,7 +11,7 @@ const PostTime = styled.span`
 const BlogPost = ({ data }) => {
   const post = data.markdownRemark;
   return (
-    <>
+    <div className='wrapper'>
       <Header />
       <main>
         <h1>{post.frontmatter.title}</h1>
@@ -19,7 +19,7 @@ const BlogPost = ({ data }) => {
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </main>
       <Footer />
-    </>
+    </div>
   )
 }
 
