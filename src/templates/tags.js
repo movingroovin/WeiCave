@@ -2,32 +2,39 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Link, graphql } from "gatsby"
 
+import Header from '../components/Header'
+import Footer from '../components/Footer'
+import './../assests/style/General.scss'
+
 // Components
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext
   const { edges, totalCount } = data.allMarkdownRemark
-  const tagHeader = `${totalCount} post${
-    totalCount === 1 ? "" : "s"
-  } tagged with "${tag}"`
+  const tagHeader = `共有 ${totalCount} 篇關於「${tag}」的文章`;
+  
   return (
-    <div>
-      <h1>{tagHeader}</h1>
-      <ul>
-        {edges.map(({ node }) => {
+    <div className='wrapper'>
+      <Header />
+      <main>
+        <h1>{tagHeader}</h1>
+        <ul>
+          {edges.map(({ node }) => {
           const { slug } = node.fields
           const { title } = node.frontmatter
           return (
             <li key={slug}>
-              <Link to={slug}>{title}</Link>
+            <Link to={slug}>{title}</Link>
             </li>
           )
-        })}
-      </ul>
-      {/*
-              This links to a page that does not yet exist.
-              You'll come back to it!
-            */}
-      <Link to="/tags">All tags</Link>
+          })}
+        </ul>
+        {/*
+                This links to a page that does not yet exist.
+                You'll come back to it!
+                */}
+        <Link to="/tags">All tags</Link>
+      </main>
+      <Footer />
     </div>
   )
 }
