@@ -16,7 +16,7 @@ const BlogPost = ({ data }) => {
       <main>
         <h1>{post.frontmatter.title}</h1>
         <PostTime>{post.frontmatter.date}</PostTime>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div className='postContent' dangerouslySetInnerHTML={{ __html: post.html }} />
       </main>
       <Footer />
     </div>

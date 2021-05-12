@@ -24,4 +24,7 @@ main {
   color: $primary-color;
   padding: 16px 20%;
   border-top: 1px solid #e6e6e6;
+  .postContent a{
+    color: darkseagreen;
+  }
 }
