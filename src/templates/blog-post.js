@@ -3,6 +3,8 @@ import { graphql } from 'gatsby'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import styled from 'styled-components';
+import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
+deckDeckGoHighlightElement();
 
 const PostTime = styled.span`
   color: #737373;
