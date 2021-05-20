@@ -27,4 +27,7 @@ main {
   .postContent a{
     color: darkseagreen;
   }
+  @media screen and (max-width: 992px) {
+    padding: 16px 5%;
+  }
 }
