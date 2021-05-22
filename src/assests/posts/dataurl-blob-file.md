@@ -1,7 +1,7 @@
 ---
 title: '[JS] dataURL, Blob, File'
 date: '2021/04/15'
-tags: ['technical', 'React']
+tags: ['Technical', 'React']
 ---
 
 專案開發時，系統簽核流程需要有簽名板功能並存成圖片，經過搜尋之後選擇使用[signature_pad](https://github.com/szimek/signature_pad)。這個套件使用起來非常簡單，`npm install signature_pad`之後再`import`至需要的地方，並用`new`創建一個實例即可使用。在使用這個套件時，會依序遇到dataURL、Blob還有最後儲存的File，在了解後簡單紀錄一下這三者之間的差別與關聯。

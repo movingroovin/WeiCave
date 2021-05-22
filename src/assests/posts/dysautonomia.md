@@ -1,7 +1,7 @@
 ---
 title: '經歷自律神經失調的心得 Dysautonomia'
 date: '2021/04/25'
-tags: ['self-awareness']
+tags: ['Self-awareness']
 ---
 
 現在回想起來，應該是學生時期被保護得太好，讓剛出社會的我被嚇到了，陷入深深的自我懷疑。  

@@ -1,7 +1,7 @@
 ---
 title: 'Google Interview - Technical Solution Consultant'
 date: '2021/03/09'
-tags: ['self-awareness', 'interview']
+tags: ['Self-awareness', 'Interview']
 ---
 
 ## My interview experience for TSC role at Google  

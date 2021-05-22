@@ -1,7 +1,7 @@
 ---
 title: '[React] useEffect不想在初始render時被觸發'
 date: '2021/04/30'
-tags: ['technical', 'React']
+tags: ['Technical', 'React']
 ---
 
 ## useEffect()
