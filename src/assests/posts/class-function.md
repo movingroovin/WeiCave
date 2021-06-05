@@ -69,6 +69,9 @@ class Video {
 3. `getter`和`setter`因為可能會造成不在預期內的副作用，不建議使用
 
 ## 類別的繼承
+
+**影集(TVShow)**繼承自**影視作品(Video)**：
+
 ### 使用function
 ```js
 function TVShow(title, year, topCast, season) {
@@ -90,7 +93,6 @@ TVShow.prototype.info = function() {
 2. 父類別的方法，則使用`Object.create()`指派方法給子類別
 
 ### 使用class
-**影集(TVShow)**繼承自**影視作品(Video)**：
 ```js
 class TVShow extends Video {
     // Attributes
