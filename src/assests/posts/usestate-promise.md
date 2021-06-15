@@ -1,5 +1,5 @@
 ---
-title: '[React] 用Promise連續更新state'
+title: '[React] 用Promise連續更新state'
 date: '2021/06/12'
 tags: ['React']
 ---
