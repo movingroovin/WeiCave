@@ -9,13 +9,17 @@ const SiteFooter = styled.footer`
   align-items: center;
   padding: 0.5rem 5%;
   background-color: #3e4441;
-  color: #f1defa
+  color: #f1defa;
 `;
 
 const Icon = styled.div`
   font-size: 30px;
   margin: 0 10%;
 `;
+
+const IconLink = styled.a`
+  color: #f1defa;
+`
 
 const FooterContainer = styled.nav`
   display: flex;
@@ -31,10 +35,10 @@ const Footer = () => {
         </div>
         <FooterContainer>
           <Icon>
-            <FaLinkedin />
+            <IconLink href="https://github.com/movingroovin" target="_blank" rel="noreferrer" aria-label='GitHub'><FaLinkedin/></IconLink>
           </Icon>
           <Icon>
-            <FaGithub />
+            <IconLink href="https://www.linkedin.com/in/cheng-wei-wei-chen-179a2a183/" target="_blank" rel="noreferrer" aria-label='LinkedIn'><FaGithub /></IconLink>
           </Icon>
         </FooterContainer>
       </SiteFooter>
