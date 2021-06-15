@@ -25,7 +25,7 @@ const Header = () => {
   return (
     <SiteHeader>
       <div>
-        <Link to="/">
+        <Link to="/blog">
           {/* <SiteName>Rules of world</SiteName> */}
           <SiteName>wweiweeiweii</SiteName>
         </Link>

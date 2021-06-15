@@ -118,5 +118,5 @@ class繼承：
 Reference:
 1. [MDN - Classes](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Classes)
 2. [MDN - JavaScript 中的「繼承」](https://developer.mozilla.org/zh-TW/docs/Learn/JavaScript/Objects/Inheritance)
-3. [phchender - [JS] JavaScript 類別（Class）](https://pjchender.dev/javascript/js-class/)
+3. [pjchender - [JS] JavaScript 類別（Class）](https://pjchender.dev/javascript/js-class/)
 4. [shubo - [教學] 深入淺出 JavaScript ES6 Class (類別)](https://shubo.io/javascript-class/#%E7%94%A8-extends-%E7%B9%BC%E6%89%BF%E9%A1%9E%E5%88%A5)

@@ -9,7 +9,7 @@ const IndexPage = () => {
       <Header />
       <main>
         <title>Home Page</title>
-        <h1>homepage</h1>
+        <h1>homepage constructing...</h1>
       </main>
       <Footer />
     </div>
