@@ -35,10 +35,10 @@ const Footer = () => {
         </div>
         <FooterContainer>
           <Icon>
-            <IconLink href="https://github.com/movingroovin" target="_blank" rel="noreferrer" aria-label='GitHub'><FaLinkedin/></IconLink>
+            <IconLink href="https://github.com/movingroovin" target="_blank" rel="noreferrer" aria-label='GitHub'><FaGithub /></IconLink>
           </Icon>
           <Icon>
-            <IconLink href="https://www.linkedin.com/in/cheng-wei-wei-chen-179a2a183/" target="_blank" rel="noreferrer" aria-label='LinkedIn'><FaGithub /></IconLink>
+            <IconLink href="https://www.linkedin.com/in/cheng-wei-wei-chen-179a2a183/" target="_blank" rel="noreferrer" aria-label='LinkedIn'><FaLinkedin/></IconLink>
           </Icon>
         </FooterContainer>
       </SiteFooter>
