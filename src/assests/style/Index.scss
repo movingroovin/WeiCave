@@ -1,0 +1,76 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background: rgb(146,213,249);
+    background: linear-gradient(288deg, rgba(146,213,249,1) 2%, rgba(64,213,85,1) 87%);
+    position: relative;
+}
+
+.inner {
+    width: 90%;
+    height: 40%;
+    border: 2px solid rgb(231, 198, 198);
+    border-radius: 10px;
+    position: absolute;
+    margin: auto;
+    top: 5%;
+    bottom: 40%;
+    left: 0;
+    right: 0;
+}
+
+.main-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    .main-name-item {
+        font-size: 3.5rem;
+        font-family: monospace;
+        font-weight: 700;
+        color: honeydew;
+    }
+}
+
+.tags {
+    width: 90%;
+    height: 40%;
+    position: absolute;
+    margin: auto;
+    top: 60%;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .tag-name {
+        background-color: rgb(38, 41, 44);
+        font-size: 1.6rem;
+        font-family: monospace;
+        font-weight: 700;
+        color: rgb(218, 196, 196);
+        line-height: 1.2;
+        margin: 5px;
+    }
+}
+
+.go-button {
+    border: 2px solid rgb(36, 26, 26);
+    color: rgb(36, 26, 26);
+    font-size: 1.8rem;
+    margin-top: 10px;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.go-button:hover {
+    background-color: rgb(138, 130, 207);
+}
