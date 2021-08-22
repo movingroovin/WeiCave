@@ -11,6 +11,28 @@
     position: relative;
 }
 
+.inner-header {
+    color: honeydew;
+    display: flex;
+    justify-content: space-between;
+    .inner-header-icon {
+        font-family: 'Londrina Sketch', cursive;
+        font-size: 30px;
+        border: 1px solid honeydew;
+        padding: 0 6px;
+        border-radius: 5px;
+        margin: 3vh 2.5vw;
+    }
+    .inner-header-content {
+        margin: auto 2.5vw;
+        display: flex;
+        .inner-header-content-item {
+            margin: 0 10px;
+            color: honeydew;
+        }
+    }
+}
+
 .inner {
     width: 90%;
     height: 30%;
@@ -45,10 +67,10 @@
 
 .tags {
     width: 90%;
-    height: 60%;
+    // height: 60%;
     position: absolute;
     margin: auto;
-    top: 60%;
+    top: 47%;
     bottom: 5%;
     left: 0;
     right: 0;
