@@ -10,9 +10,9 @@ const IndexPage = () => {
     <div className="container">
       <div className="inner">
         <div className="main-name">
-          <div className="main-name-item">wwei</div>
-          <div className="main-name-item">weei</div>
-          <div className="main-name-item">weii</div>
+          <div className="main-name-item">Cheng Wei</div>
+          {/* <div className="main-name-item">weei</div>
+          <div className="main-name-item">weii</div> */}
         </div>
       </div>
       <div className="tags">

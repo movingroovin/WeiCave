@@ -2,16 +2,20 @@
     width: 100%;
     height: 100vh;
     margin: 0 auto;
-    background: rgb(146,213,249);
-    background: linear-gradient(288deg, rgba(146,213,249,1) 2%, rgba(64,213,85,1) 87%);
+    // background: rgb(146,213,249);
+    // background: linear-gradient(288deg, rgba(146,213,249,1) 2%, rgba(64,213,85,1) 87%);
+    background-image: url('./../img/boston.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
 }
 
 .inner {
     width: 90%;
-    height: 40%;
-    border: 2px solid rgb(231, 198, 198);
-    border-radius: 10px;
+    height: 30%;
+    // border: 2px solid rgb(231, 198, 198);
+    // border-radius: 10px;
     position: absolute;
     margin: auto;
     top: 5%;
@@ -41,7 +45,7 @@
 
 .tags {
     width: 90%;
-    height: 40%;
+    height: 60%;
     position: absolute;
     margin: auto;
     top: 60%;
@@ -63,14 +67,29 @@
 }
 
 .go-button {
-    border: 2px solid rgb(36, 26, 26);
-    color: rgb(36, 26, 26);
+    position: relative;
     font-size: 1.8rem;
     margin-top: 10px;
     padding: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     cursor: pointer;
+    margin-top: 10%;
+    transition: linear 0.3s;
+    a {
+        color: #e6e6e6;
+    }
 }
-.go-button:hover {
-    background-color: rgb(138, 130, 207);
+.go-button a:after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid #e6e6e6;
+    width: 0;
+    position: absolute;
+    left: 0;
+    -webkit-transition: 1s ease;
+    transition: 1s ease;
+  }
+.go-button a:hover:after {
+    // background-color: rgb(138, 130, 207);
+    width: 100%; 
 }

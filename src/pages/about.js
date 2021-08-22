@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import './../assests/style/General.scss'
 
 // image
-import profile from './../assests/img/IMG_2864.jpg';
+import profile from './../assests/img/thumbnail.jpg';
 
 const ProfileContainer = styled.div`
   margin-top: 70px;
@@ -34,7 +34,7 @@ const AboutPage = () => {
           <Img src={profile} alt="Profile"/>
           <div>
             <h1>About Wei</h1>
-            <p>Fullstack(Forntend) Engineer @ Taiwan</p>
+            <p>Fullstack(Frontend) Engineer @ Taipei, Taiwan</p>
             <p>Contact: finnbloo@gmail.com</p>
           </div>
         </ProfileContainer>
