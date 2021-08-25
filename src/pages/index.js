@@ -29,6 +29,7 @@ const IndexPage = () => {
           <div className="tag-name"># Tableau</div>
           <div className="go-button"> <Link to='/blog'>go my blog</Link></div>
       </div>
+      <div className="inner-footer">Photo by me, drop likes ;)</div>
     </div>
   )
 }

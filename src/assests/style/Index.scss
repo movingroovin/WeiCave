@@ -19,7 +19,7 @@
         font-family: 'Londrina Sketch', cursive;
         font-size: 30px;
         border: 1px solid honeydew;
-        padding: 0 6px;
+        padding: 0 8px;
         border-radius: 5px;
         margin: 3vh 2.5vw;
     }
@@ -114,4 +114,11 @@
 .go-button a:hover:after {
     // background-color: rgb(138, 130, 207);
     width: 100%; 
+}
+
+.inner-footer {
+    color: #e6e6e6;
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
 }
