@@ -1,7 +1,7 @@
 ---
 title: '[SQL] TWD97 轉 WGS84 SQL Server Table-Valued Function'
 date: '2021/09/14'
-tags: ['Technical']
+tags: ['Technical', 'SQL']
 ---
 
 ## 緣由

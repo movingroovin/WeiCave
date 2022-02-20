@@ -1,7 +1,7 @@
 ---
 title: '[JS] class和function'
 date: '2021/06/03'
-tags: ['Technical']
+tags: ['Technical', 'JavaScript']
 ---
 
 ## 宣告方式
